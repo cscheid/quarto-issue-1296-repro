@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 42f096c9-0f51-46a4-b5de-40d16e7750e3
+      url: 'https://enchanting-begonia-515a06.netlify.app'
