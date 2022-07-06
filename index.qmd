@@ -1,1 +1,3 @@
-Get [the pdf](./Some-title.pdf)
+Get [the pdf](./Some-title.pdf).
+
+Trigger build on GHA.
