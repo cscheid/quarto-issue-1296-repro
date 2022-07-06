@@ -1,0 +1,30 @@
+# Heading 1
+## Heading 2
+
+- Point 1
+- Point 2
+- Point 3
+
+```{dot}
+//| label: pathology
+//| fig-cap: Pathology of TBM
+//| fig-align: center
+//| fig-height: 2
+
+digraph pathology {
+ 
+    Aerosol -> Lung 
+    Lung:e -> Lung:e
+    Lung -> Blood
+    Blood -> {Organ:n CNS}
+    Blood:w -> Lung:w
+    Organ:s -> Organ:s
+
+    CNS -> Latent
+    CNS -> Rich:n
+    Latent -> Rich:n
+    Rich -> Subarchnoic
+    Subarchnoic:s -> Subarchnoic:n
+}   
+
+```

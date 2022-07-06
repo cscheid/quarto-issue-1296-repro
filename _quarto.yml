@@ -1,0 +1,20 @@
+project:
+  type: book
+
+book:
+  title: 'Some title'
+  author: 'Myself'
+  repo-url: 'https://github.com/repo/repo'
+  chapters:
+    - index.qmd
+    - introduction.qmd
+
+format:
+  pdf: 
+    toc: true
+    number-sections: true
+    documentclass: scrbook
+    keep-tex: true
+    latex-auto-install: true
+    pdf-engine: xelatex
+  html: default
